@@ -2,11 +2,21 @@ name: Github Workflow Demo
 
 on: [push]
 
+env:
+GLOBALVAR: sushi
+FOOD: ${{ secrets.SECRET_FOOD }}
+
+
 jobs: 
   
   actions_demo:
   
     runs-on: ubuntu-latest
+    env:
+      BEST_FOOD: century_egg
     steps:
     - run: echo "Hello Github"
-    - run: touch test.txt
+      run: echo $GLOBALVAR
+      run: echo BEST_FOOD
+      run: echo $FOOD
+      run: touch test.txt
