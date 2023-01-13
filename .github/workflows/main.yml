@@ -16,7 +16,7 @@ jobs:
       BEST_FOOD: century_egg
     steps:
     - run: echo "Hello Github"
-      run: echo $GLOBALVAR
-      run: echo BEST_FOOD
-      run: echo $FOOD
-      run: touch test.txt
+    - run: echo $GLOBALVAR
+    - run: echo BEST_FOOD
+    - run: echo $FOOD
+    - run: touch test.txt
