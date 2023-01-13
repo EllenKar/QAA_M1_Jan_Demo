@@ -3,20 +3,16 @@
   jobs:
     action_1
   # clones the repo
-      run: actions/checkout@v1
-      run: touch newfile.txt
-      run: rm newfile.txt
-      run: mkdir new_file
+      touch newfile.txt
+      rm newfile.txt
+      mkdir new_file
   
-      run: chmod +x buildScript.sh
-      run: ./buildScript.sh 
+    
       
     action_2
-      run: actions/checkout@v1
       # Below prints out current location
-      run: pwd
-      name: print content
-      run: echo "hello world" >> hello.txt
+      pwd
+      print content
+      echo "hello world" >> hello.txt
 
-      run: chmod +x buildScript.sh
-      run: ./buildScript.sh 
+    
