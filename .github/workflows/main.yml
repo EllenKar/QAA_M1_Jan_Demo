@@ -3,8 +3,8 @@ name: Github Workflow Demo
 on: [push]
 
 env:
-GLOBALVAR: sushi
-FOOD: ${{ secrets.SECRET_FOOD }}
+  GLOBALVAR: sushi
+  FOOD: ${{ secrets.SECRET_FOOD }}
 
 
 jobs: 
@@ -17,6 +17,6 @@ jobs:
     steps:
     - run: echo "Hello Github"
     - run: echo $GLOBALVAR
-    - run: echo BEST_FOOD
+    - run: echo $BEST_FOOD
     - run: echo $FOOD
     - run: touch test.txt
