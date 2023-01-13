@@ -24,13 +24,13 @@ Orders:
     Food2: Mayo
 
 - Price: 3.2
-- Size: Large
-- Type: Latte
-- Dairy_free: false
+  Size: Large
+  Type: Latte
+  Dairy_free: false
 - extras
   - extra1: cream
   - extra2: milk
-- Cust_name: Frank
+  Cust_name: Frank
 - Food_Orders
   - Food1: Burger
-  - Food2: Chips
+    Food2: Chips
