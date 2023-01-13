@@ -1,28 +1,27 @@
-Orders
-
+Orders:
 - Price: 1.2
-- Size: small
-- Type: Choc
-- Dairy_free: true
-- extras
+  Size: small
+  Type: Choc
+  Dairy_free: true
+- extras:
   - extra1: syrup
-  - extra2: choc_dust
-- Cust_name: Drac
+    extra2: choc_dust
+  Cust_name: Drac
 - Food_Orders
   - Food1: sandwich
-  - Food2: spud
+    Food2: spud
 
 - Price: 2.3
-- Size: Medium
-- Type: Cappucino
-- Dairy_free: false
+  Size: Medium
+  Type: Cappucino
+  Dairy_free: false
 - extras
   - extra1: almond
-  - extra2: hazelnut
-- Cust_name: Mavis
+    extra2: hazelnut
+  Cust_name: Mavis
 - Food_Orders
   - Food1: Chips
-  - Food2: Mayo
+    Food2: Mayo
 
 - Price: 3.2
 - Size: Large
