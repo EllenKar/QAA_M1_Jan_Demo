@@ -6,7 +6,7 @@ jobs:
   
   actions_demo:
   
-    runs_on: ubunto-latest
+    runs-on: ubunto-latest
     steps:
     - run: echo "Hello Github"
     - run: touch test.txt
