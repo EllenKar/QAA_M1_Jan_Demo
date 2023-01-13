@@ -1,0 +1,12 @@
+name: Github Workflow Demo
+
+on: [push]
+
+jobs: 
+  
+  actions_demo:
+  
+    runs_on: ubunto-latest
+    steps:
+    - run: echo "Hello Github"
+    - run: touch test.txt
